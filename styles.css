@@ -1,27 +1,32 @@
 body {
-background: DarkSlateGray;
-font-family: Arial, Helvetica, sans-serif;
+  background: DarkSlateGray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-color: FloralWhite;
-text-align: center;
+  color: FloralWhite;
+  text-align: center;
 }
 
 .assign {
-display: flex;
-padding: 10px;
-margin: 10px;
-background: Gainsboro;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background: Gainsboro;
 }
 
 .assign img {
-width: 200px;
-padding: 10px;
-border: 2px solid black;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-right: 10px; 
+}
+
+.assign-det {
+  flex: 1; 
 }
 
 a {
-text-decoration: none; 
-color: black; 
+  text-decoration: none;
+  color: black;
 }
